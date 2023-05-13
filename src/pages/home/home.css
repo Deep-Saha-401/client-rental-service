@@ -1,0 +1,14 @@
+.homeContainer{
+  background-image: url("C:\Users\Deep Saha\Desktop\AI-Based\Booking-Home\client\src\image\white.jpg");
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-size: contain;
+}
+
+.homeTitle{
+  width: 1024px;
+  font-size: 20px;
+}
