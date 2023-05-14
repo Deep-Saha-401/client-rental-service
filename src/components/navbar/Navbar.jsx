@@ -22,20 +22,16 @@ const Navbar = () => {
   };
   
   const handleClickR = () => {
-    if (user) {
-      setOpenModal(true);
-    } else {
-      navigate(window.location.href = 'https://admin-rental-service-deep-saha-401.onrender.com/users/new')
-    }
+      navigate(window.location.href = 'https://admin-rental-service.netlify.app/users/new')
   };
   const handleClickA = () => {
    
-      navigate(window.location.href = 'https://admin-rental-service-deep-saha-401.onrender.com/login')
+      navigate(window.location.href = 'https://admin-rental-service.netlify.app/login')
   };
   
   const handleClickH = () => {
 
-      navigate(window.location.href = 'https://admin-rental-service-deep-saha-401.onrender.com/hotels/new')
+      navigate(window.location.href = 'https://admin-rental-service.netlify.app/hotels/new')
   
   };
  
