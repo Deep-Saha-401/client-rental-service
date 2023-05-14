@@ -1,9 +1,9 @@
 import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
+import { BASE_URL } from '../../helper';
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
-
+  const { data, loading, error } = useFetch(`${BASE_URL}/hotels?featured=true&limit=4`);
   return (
     <div className="fp">
       {loading ? (
